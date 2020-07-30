@@ -24,7 +24,7 @@ NOTE: Your PR will test it github actions, and after will be checked by an odoo 
 #### Rules: 
 * An employee can only have one department assigned.
 
-* Add a sql file named "employees.sql" to this repository at root folder. Do not make a database backup, use the sql scrit that you are used to build the database.
+* Add a sql file named "employees.sql" to this repository at root folder. Do not make a database backup, use the sql script that you are used to build the database.
 * Make a commit with the label "[+] employee database schema"
 
 ### 2. Odoo I
@@ -62,5 +62,8 @@ NOTE: Your PR will test it github actions, and after will be checked by an odoo 
 * The unit test may have at least 2 assert instructions with different scenarios.
 * Make a commit to all changes with label "[+] Unit tests"
 
+
+### 5. Pull Request
+* Make a PR to this repository with title "Odoo Applicant - <Your Name>"
 
 # Happy Coding :)
