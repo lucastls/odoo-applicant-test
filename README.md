@@ -64,6 +64,6 @@ NOTE: Your PR will test it github actions, and after will be checked by an odoo 
 
 
 ### 5. Pull Request
-* Make a PR to this repository with title "Odoo Applicant - <Your Name>"
+* Make a PR to this repository with title "Odoo Applicant - **Your Name**"
 
 # Happy Coding :)
