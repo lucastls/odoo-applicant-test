@@ -29,9 +29,10 @@ NOTE: Your PR will test it with github actions using Odoo version 12.0 with stan
 
 ### 2. Odoo I
 1. Create a odoo module named "employee_casai"
-1. Create a model named "hr_employee" with the fields used for the table "employee" (problem 1).
+1. Create a model named "hr_employee" with the fields used for the table "employee" *(problem 1)*.
 1. Add a computed field named "full_name" and concat "first_name" and "last_name"
-1. Create a model named "hr_department" with the fields used for table "employee_department" (problem 1)
+1. Create a model named "hr_department" with the fields used for table "employee_department" *(problem 1)*.
+1. Add demo data with the same 5 employees and 8 departmets used on *problem 1*
 1. Make the necessary changes to assign employees of their respective department.
    
 #### Rules: 
