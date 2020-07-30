@@ -6,4 +6,10 @@ This repository will be used by applicants to collaborate with casai to upload t
 
 NOTE: Your PR will test it github actions, and after will be checked by an odoo expert.
 
-================
+## Edit this readme file and complete the next data:
+### Full Name: 
+### Email: 
+
+## Problems & instructions
+
+* 
