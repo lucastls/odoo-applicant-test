@@ -39,11 +39,28 @@ NOTE: Your PR will test it github actions, and after will be checked by an odoo 
 * The module needs to be of application type
 * The module needs to depend a mail module
 * An employee can only have one department assigned.
+* Make sure to add the correct security rules to "ir.model.access.csv" file.
 * Make a commit to all changes with label "[+] employee module"
 
 ### 3. Odoo II
 1. Add a tree and form view to employee module and show all data, incluided full_name.
-2. Add a menus to make the follow structure.
+1. Add a menus to make the follow structure.
    1. Casai
       1. People & Control
          1. Employees
+1. Make an action for "Employees" menu and make to open the tree and form views for employees.
+
+#### Rules:
+* In the employees form view, the department field must restrict the *create* and the *edit* options.
+* Make a commit to all changes with label "[+] employee views"
+
+
+### 4. Odoo III (Optional to win extra point).
+1. Write a unit test to validate the full_name computation when an employee has been added. 
+
+#### Rules:
+* The unit test may have at least 2 assert instructions with different scenarios.
+* Make a commit to all changes with label "[+] Unit tests"
+
+
+# Happy Coding :)
