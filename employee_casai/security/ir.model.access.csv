@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hr_employee_user,HrEmployee,model_hr_employee,casai_employee_group_user,1,0,0,0
+access_hr_employee_manager,HrEmployee,model_hr_employee,casai_employee_group_manager,1,1,1,1
+access_hr_department_user,HrDepartment,model_hr_department,casai_employee_group_user,1,0,0,0
+access_hr_department_manager,HrDepartment,model_hr_department,casai_employee_group_manager,1,1,1,1
