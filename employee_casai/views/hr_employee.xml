@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="hr_employee_form_view" model="ir.ui.view">
+        <field name="name">hr.employee.form</field>
+        <field name="model">hr.employee</field>
+        <field name="arch" type="xml">
+            <sheet>
+                <group>
+                    <field name="first_name"/>
+                    <field name="last_name"/>
+                    <field name="full_name"/>
+                    <field name="department_id" nocreate="1"/>
+
+                </group>
+            </sheet>
+        </field>
+    </record>
+
+    <record id="hr_employee_tree_view" model="ir.ui.view">
+        <field name="name">hr.employee.tree</field>
+        <field name="model">hr.employee</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="first_name"/>
+                <field name="last_name"/>
+                <field name="full_name"/>
+                <field name="department_id" nocreate="1"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

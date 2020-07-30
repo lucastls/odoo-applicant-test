@@ -5,6 +5,9 @@
     'author': 'Lucas Santos',
     "depends": ['mail'],
     'data': [
+        'views/menu.xml',
+        'views/hr_employee.xml',
+        'views/hr_department.xml',
         'security/employee_casai_security.xml',
         'security/ir.model.access.csv',
     ],

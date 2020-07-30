@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<odoo>
+    
+    <act_window id="action_employees"
+                name="Employees"
+                res_model="hr.employee"
+                view_mode="tree,form"/>
+
+    <menuitem id="menu_casai"
+              name="Casai" />
+
+    <menuitem id="menu_casai_people"
+              name="People '&amp;' Control"
+              parent="menu_casai"
+              action="action_citadel_courses"/>
+
+    <menuitem id="menu_casai_employee"
+              name="Employees"
+              parent="menu_casai_people"
+              action="action_employees"/>
+</odoo>
