@@ -4,8 +4,6 @@ This repository will be used by applicants to collaborate with casai to upload t
 
 * Make a fork of this repository, with your github user and resolve the technical test problems
 
-NOTE: Your PR will test it with github actions using Odoo version 12.0 with standard modules.
-
 ## Edit this readme file and complete the next data:
 #### Full Name: 
 #### Personal Email: 
